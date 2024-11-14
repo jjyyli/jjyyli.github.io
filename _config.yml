@@ -24,9 +24,9 @@ author:
   #avatar           : #"profile.png"
   name             : "Jingyang Li"
   pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  bio              : "Postdoc"
   location         : "Ann Arbor, MI"
-  employer         : #"University of Michigan, Ann Arbor"
+  employer         : "University of Michigan"
   uri              : # URL
   email            : #"none@example.org" 
 
