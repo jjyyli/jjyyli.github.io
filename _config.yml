@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Ann Arbor, MI"
-  employer         : "University of Michigan, Ann Arbor"
+  employer         : #"University of Michigan, Ann Arbor"
   uri              : # URL
   email            : #"none@example.org" 
 
