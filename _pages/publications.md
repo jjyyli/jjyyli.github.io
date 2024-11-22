@@ -37,11 +37,11 @@ author_profile: true
 1. Provable sample-efficient sparse phase retrieval initialized by truncated power method  
    With *Jian-Feng Cai, Juntao You*  
    ***Inverse Problems 39 (7), 075008***  [[Journal]](https://iopscience.iop.org/article/10.1088/1361-6420/acd8b8/meta), [[arXiv]](https://arxiv.org/pdf/2210.14628)
-1. Provable tensor-train format tensor completion by riemannian optimization  
-   With *Jian-Feng Cai, and Dong Xia*
+1. Provable tensor-train format tensor completion by riemannian optimization    
+   With *Jian-Feng Cai, and Dong Xia*  
    ***Journal of Machine Learning Research 23 (123), 1-77***  [[Journal]](https://www.jmlr.org/papers/v23/21-1138.html)
-1. Image restoration: structured low rank matrix framework for piecewise smooth functions and beyond  
-   With *Jian-Feng Cai, Jae Kyu Choi, and Ke Wei*
+1. Image restoration: structured low rank matrix framework for piecewise smooth functions and beyond    
+   With *Jian-Feng Cai, Jae Kyu Choi, and Ke Wei*  
    ***Applied and Computational Harmonic Analysis 56, 26-60***  [[Journal]](https://www.sciencedirect.com/science/article/abs/pii/S1063520321000634), [[arXiv]](https://arxiv.org/pdf/2012.06827)
 
 
