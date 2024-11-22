@@ -24,7 +24,7 @@ author_profile: true
 
 **Publications**
 1. Computationally Efficient and Statistically Optimal Robust High-dimensional Linear Regression  
-   With *Yinan Shen, Jian-Feng Cai, and Dong Xia*
+   With *Yinan Shen, Jian-Feng Cai, and Dong Xia*  
    ***To appear in Annals of Statistics*** [[Journal]](https://www.e-publications.org/ims/submission/AOS/user/submissionFile/60279?confirm=e20d239c)
 1. Restoration Guarantee of Image Inpainting via Low Rank Patch Matrix Completion  
    With *Jian-Feng Cai, Jae Kyu Choi, and Guojian Yin*  
