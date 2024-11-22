@@ -19,6 +19,8 @@ author_profile: true
 **Preprints**
 1. Online Policy Learning and Inference by Matrix Completion  
    With *Congyuan Duan, and Dong Xia*
+1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret
+   With *Jian-Feng Cai, Yang Chen, and Dong Xia* 
 1. Computationally efficient and statistically optimal robust low-rank matrix estimation  
    With *Yinan Shen, Jian-Feng Cai, and Dong Xia*
 
@@ -29,6 +31,13 @@ author_profile: true
 1. Restoration Guarantee of Image Inpainting via Low Rank Patch Matrix Completion  
    With *Jian-Feng Cai, Jae Kyu Choi, and Guojian Yin*  
    ***SIAM Journal on Imaging Sciences 17 (3), 1879-1908.*** [[Journal]](https://epubs.siam.org/doi/abs/10.1137/23M1614456), [[arXiv]](https://arxiv.org/pdf/2309.01328)
+1. Generalized low-rank plus sparse tensor estimation by fast Riemannian optimization
+   With *Jian-Feng Cai, and Dong Xia*
+   ***Journal of the American Statistical Association 118 (544), 2588-2604***  [[Journal]](https://www.tandfonline.com/doi/abs/10.1080/01621459.2022.2063131), [[arXiv]](https://arxiv.org/pdf/2103.08895)
+1. Provable sample-efficient sparse phase retrieval initialized by truncated power method
+   With *Jian-Feng Cai, Juntao You*
+   ***Inverse Problems 39 (7), 075008***  [[Journal]](https://iopscience.iop.org/article/10.1088/1361-6420/acd8b8/meta), [[arXiv]](https://arxiv.org/pdf/2210.14628)
+
 
 
 
