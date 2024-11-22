@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications and Preprints"
 permalink: /publications/
 author_profile: true
 ---
@@ -15,12 +15,6 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
----
-permalink: /publications/
-title: "Publications and Preprints"
-author_profile: true
----
-<br>
 
 **Preprints**
 1. On modified Euler schemes for McKean-Valsov stochastic differential equations with super-linear coefficients.  
