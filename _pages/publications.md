@@ -17,9 +17,9 @@ author_profile: true
 
 
 **Preprints**
-1. Online Policy Learning and Inference by Matrix Completion  
+1. Online Policy Learning and Inference by Matrix Completion  [[arXiv]](https://arxiv.org/pdf/2404.17398)  
    With *Congyuan Duan, and Dong Xia*
-1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret  
+1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret  [[arXiv]](https://arxiv.org/pdf/2306.03372)    
    With *Jian-Feng Cai, Yang Chen, and Dong Xia* 
 1. Computationally efficient and statistically optimal robust low-rank matrix estimation  
    With *Yinan Shen, Jian-Feng Cai, and Dong Xia*
