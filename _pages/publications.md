@@ -17,7 +17,7 @@ author_profile: true
 
 
 **Preprints**
-1. Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm  
+1. Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm  [[arXiv]](https://arxiv.org/abs/2411.15660)    
    With *T. Tony Cai, Dong Xia, and Anru R. Zhang*
 1. Online Policy Learning and Inference by Matrix Completion  [[arXiv]](https://arxiv.org/pdf/2404.17398)  
    With *Congyuan Duan, and Dong Xia*
