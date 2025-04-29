@@ -11,7 +11,7 @@ I am a Postdoctoral Assistant Professor (Van Loo Postdoc Fellow) in the Departme
 
 Before that, I got my Ph.D. degree in the Department of Mathematical at Hong Kong University of Science and Technology in June, 2023, under the supervision of [Prof. Jian-Feng Cai](https://www.math.hkust.edu.hk/~jfcai/) and [Prof. Dong Xia](https://www.math.hkust.edu.hk/~madxia/). I obtained my Bachelor’s degrees in Mathematics from Zhejiang University in June, 2019.
 
-
+I will be joining the Department of Statistics and Data Science at Fudan University as an Assistant Professor in Fall 2025.
 
 Preprints
 ======
