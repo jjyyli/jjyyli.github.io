@@ -4,7 +4,7 @@ title: "Publications and Preprints"
 permalink: /publications/
 author_profile: true
 ---
-
+<!-- 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -46,7 +46,7 @@ author_profile: true
    With *Jian-Feng Cai, Jae Kyu Choi, and Ke Wei*  
    ***Applied and Computational Harmonic Analysis 56, 26-60***  [[Journal]](https://www.sciencedirect.com/science/article/abs/pii/S1063520321000634), [[arXiv]](https://arxiv.org/pdf/2012.06827)
 
-
+-->
 
 
 
