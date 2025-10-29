@@ -27,9 +27,9 @@ Publications
 1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret  [[arXiv]](https://arxiv.org/pdf/2306.03372)    
    With *Jian-Feng Cai, Yang Chen, and Dong Xia*  
    **Accepted by AoS**
-1. Online Policy Learning and Inference by Matrix Completion  [[Journal]](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2537454), [[arXiv]](https://arxiv.org/pdf/2404.17398)  
+1. Online Policy Learning and Inference by Matrix Completion  
    With *Congyuan Duan, and Dong Xia*  
-   ***Journal of the American Statistical Association***  [[Journal]](https://www.tandfonline.com/doi/abs/10.1080/01621459.2022.2063131), [[arXiv]](https://arxiv.org/pdf/2103.08895)
+   ***Journal of the American Statistical Association***  [[Journal]](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2537454), [[arXiv]](https://arxiv.org/pdf/2404.17398)  
 1. Computationally Efficient and Statistically Optimal Robust High-dimensional Linear Regression  
    With *Yinan Shen, Jian-Feng Cai, and Dong Xia*  
    ***Annals of Statistics 53(1): 374-399*** [[Journal]](https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/Computationally-efficient-and-statistically-optimal-robust-high-dimensional-linear-regression/10.1214/24-AOS2473.short)
