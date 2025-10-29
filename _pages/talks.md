@@ -1,1 +1,22 @@
+---
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
+author_profile: true
+---
+<br>
 
+
+**Upcoming Talks**
+- Joint Meetings of 2025 Taipei International Statistical Symposium and the 13th ICSA International Conference (ICSA 2025), *invited talk*, December 2025
+- Joint Conference on Computational and Financial Econometrics and Computational and Methodological Statistics (CFE-CMStatistics 2025), *invited talk*, December 2025
+- IMS Young Mathematical Scientists Forum — Statistics and Data Science, *invited talk*, November 2025
+
+**Past Talks**
+- Joint Statistical Meetings (JSM 2025), *contributed talk*, August 2025
+- Statistics meets Tensors: Methodology, Theory, and Applications at IMSI, Chicago, *poster*, May 2025
+- Symposium on Data Science and Statistics (SDSS 2025), *contributed talk*, May 2025
+- Department of Mathematics, University of Michigan, *invited talk*, August 2024
+- Department of Mathematics, Hong Kong Baptist University, *invited talk*, October 2023
+- HKUST SIAM Student Chapter Annual Meeting, *invited talk*, June 2023
+- Greater Bay Area Data Science and Statistics Cloud Lecture Series (Online), Capital of Statistics, *invited talk*, April 2023
