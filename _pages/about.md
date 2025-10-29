@@ -7,28 +7,32 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Assistant Professor (Van Loo Postdoc Fellow) in the Department of Mathematics and Postdoctoral Research Fellow in the Department of Statistics working with [Prof. Yang Chen](https://yangchenfunstatistics.github.io/yangchen.github.io//) at the University of Michigan, Ann Arbor. 
+I am a Postdoctoral Research Fellow in the Department of Statistics working with [Prof. Yang Chen](https://yangchenfunstatistics.github.io/yangchen.github.io//) at the University of Michigan, Ann Arbor. 
 
 Before that, I got my Ph.D. degree in the Department of Mathematical at Hong Kong University of Science and Technology in June, 2023, under the supervision of [Prof. Jian-Feng Cai](https://www.math.hkust.edu.hk/~jfcai/) and [Prof. Dong Xia](https://www.math.hkust.edu.hk/~madxia/). I obtained my Bachelor’s degrees in Mathematics from Zhejiang University in June, 2019.
 
-I will be joining the Department of Statistics and Data Science at Fudan University as an Assistant Professor in January 2026.
+I will be joining the Department of Statistics and Data Science at Fudan University as an Assistant Professor.
 
 Preprints
 ======
+1. Fourier Low-rank and Sparse Tensor for Efficient Tensor Completion
+   With *Jiuqian Shang, Yang Chen*
 1. Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm [[arXiv]](https://arxiv.org/abs/2411.15660)    
    With *T. Tony Cai, Dong Xia, and Anru R. Zhang*
-1. Online Policy Learning and Inference by Matrix Completion  [[arXiv]](https://arxiv.org/pdf/2404.17398)  
-   With *Congyuan Duan, and Dong Xia*
-1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret  [[arXiv]](https://arxiv.org/pdf/2306.03372)    
-   With *Jian-Feng Cai, Yang Chen, and Dong Xia* 
 1. Computationally efficient and statistically optimal robust low-rank matrix estimation  
    With *Yinan Shen, Jian-Feng Cai, and Dong Xia*
 
 Publications
 ======
+1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret  [[arXiv]](https://arxiv.org/pdf/2306.03372)    
+   With *Jian-Feng Cai, Yang Chen, and Dong Xia*
+   **Accepted by AoS**
+1. Online Policy Learning and Inference by Matrix Completion  [[Journal]](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2537454), [[arXiv]](https://arxiv.org/pdf/2404.17398)  
+   With *Congyuan Duan, and Dong Xia*
+   ***Journal of the American Statistical Association***  [[Journal]](https://www.tandfonline.com/doi/abs/10.1080/01621459.2022.2063131), [[arXiv]](https://arxiv.org/pdf/2103.08895)
 1. Computationally Efficient and Statistically Optimal Robust High-dimensional Linear Regression  
    With *Yinan Shen, Jian-Feng Cai, and Dong Xia*  
-   ***To appear in Annals of Statistics*** [[Journal]](https://www.e-publications.org/ims/submission/AOS/user/submissionFile/60279?confirm=e20d239c)
+   ***Annals of Statistics 53(1): 374-399*** [[Journal]](https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/Computationally-efficient-and-statistically-optimal-robust-high-dimensional-linear-regression/10.1214/24-AOS2473.short)
 1. Restoration Guarantee of Image Inpainting via Low Rank Patch Matrix Completion    
    With *Jian-Feng Cai, Jae Kyu Choi, and Guojian Yin*  
    ***SIAM Journal on Imaging Sciences 17 (3), 1879-1908*** [[Journal]](https://epubs.siam.org/doi/abs/10.1137/23M1614456), [[arXiv]](https://arxiv.org/pdf/2309.01328)
@@ -50,6 +54,6 @@ Contact
 ======
 Email: jjyyli@umich.edu
 
-Address: 4831 East Hall, 530 Church Street, Ann Arbor, MI 48109-1043
+Address: 431 West Hall, Ann Arbor, MI
 
 
