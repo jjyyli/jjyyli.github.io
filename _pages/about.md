@@ -15,7 +15,7 @@ I will be joining the Department of Statistics and Data Science at Fudan Univers
 
 Preprints
 ======
-1. Fourier Low-rank and Sparse Tensor for Efficient Tensor Completion
+1. Fourier Low-rank and Sparse Tensor for Efficient Tensor Completion  
    With *Jiuqian Shang, Yang Chen*
 1. Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm [[arXiv]](https://arxiv.org/abs/2411.15660)    
    With *T. Tony Cai, Dong Xia, and Anru R. Zhang*
@@ -25,10 +25,10 @@ Preprints
 Publications
 ======
 1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret  [[arXiv]](https://arxiv.org/pdf/2306.03372)    
-   With *Jian-Feng Cai, Yang Chen, and Dong Xia*
+   With *Jian-Feng Cai, Yang Chen, and Dong Xia*  
    **Accepted by AoS**
 1. Online Policy Learning and Inference by Matrix Completion  [[Journal]](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2537454), [[arXiv]](https://arxiv.org/pdf/2404.17398)  
-   With *Congyuan Duan, and Dong Xia*
+   With *Congyuan Duan, and Dong Xia*  
    ***Journal of the American Statistical Association***  [[Journal]](https://www.tandfonline.com/doi/abs/10.1080/01621459.2022.2063131), [[arXiv]](https://arxiv.org/pdf/2103.08895)
 1. Computationally Efficient and Statistically Optimal Robust High-dimensional Linear Regression  
    With *Yinan Shen, Jian-Feng Cai, and Dong Xia*  
