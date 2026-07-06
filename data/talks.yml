@@ -1,0 +1,129 @@
+- paper_key: "li2025heterojive"
+  display_label: "HeteroJIVE"
+  paper_title: "HeteroJIVE: Joint Subspace Estimation for Heterogeneous Multi-View Data"
+  include_in_cv: true
+  appearances:
+    - venue: "Department of Mathematics, East China Normal University"
+      type: "department seminar"
+      date: "April 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "Department of Mathematics, Tongji University"
+      type: "department seminar"
+      date: "March 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "Department of Mathematics, The Hong Kong University of Science and Technology"
+      type: "department seminar"
+      date: "February 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "Department of Mathematics, University of Macau"
+      type: "department seminar"
+      date: "January 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "School of Science and Engineering, CUHK-SZ"
+      type: "department seminar"
+      date: "January 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "Joint Meetings of 2025 Taipei International Statistical Symposium and the 13th ICSA International Conference"
+      type: "invited talk"
+      date: "December 2025"
+      invited: true
+      category: "conference"
+
+    - venue: "IMS Young Mathematical Scientists Forum, NUS"
+      type: "invited talk"
+      date: "November 2025"
+      invited: true
+      category: "workshop"
+
+- paper_key: "li2026online"
+  display_label: "Online Tensor Learning"
+  paper_title: "Online Tensor Learning: Computational and Statistical Trade-offs, Adaptivity and Optimal Regret"
+  include_in_cv: true
+  appearances:
+    - venue: "Department of Mathematics, Fudan University"
+      type: "department seminar"
+      date: "June 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "JSM 2025"
+      type: "contributed talk"
+      date: "August 2025"
+      invited: false
+      category: "conference"
+      location: "Nashville, Tennessee"
+
+    - venue: "SDSS 2025"
+      type: "contributed talk"
+      date: "May 2025"
+      invited: false
+      category: "conference"
+      location: "Salt Lake City, Utah"
+
+    - venue: "Hong Kong Baptist University"
+      type: "department seminar"
+      date: "October 2023"
+      invited: true
+      category: "seminar"
+
+    - venue: "HKUST SIAM Student Chapter Annual Meeting"
+      type: "invited talk"
+      date: "June 2023"
+      invited: true
+      category: "conference"
+
+    - venue: "Capital of Statistics"
+      type: "invited talk"
+      date: "April 2023"
+      invited: true
+      category: "seminar"
+      url: "https://www.bilibili.com/video/BV1Ls4y1E7n7/"
+
+- paper_key: null
+  display_label: "Low-Rank Matrix/Tensor Methods"
+  paper_title: null
+  include_in_cv: false
+  appearances:
+    - venue: "Summer research program, HKUST"
+      type: "research program talk"
+      date: "July 2022"
+      invited: false
+      category: "school"
+
+- paper_key: "cai2022provable"
+  display_label: "Tensor-Train Tensor Completion"
+  paper_title: "Provable Tensor-Train Format Tensor Completion by Riemannian Optimization"
+  include_in_cv: false
+  appearances:
+    - venue: "PhD Student Seminar, HKUST"
+      type: "student seminar"
+      date: "May 2022"
+      invited: false
+      category: "seminar"
+
+- paper_key: "cai2022image"
+  display_label: "Patch-Based Image Restoration"
+  paper_title: "Image restoration: Structured low rank matrix framework for piecewise smooth functions and beyond"
+  include_in_cv: false
+  appearances:
+    - venue: "Summer research program, HKUST"
+      type: "research program talk"
+      date: "August 2021"
+      invited: false
+      category: "school"
+
+    - venue: "PhD Student Seminar, HKUST"
+      type: "student seminar"
+      date: "May 2021"
+      invited: false
+      category: "seminar"
