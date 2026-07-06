@@ -38,6 +38,47 @@ When you are initially working your website, it is very useful to be able to pre
 
 If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
+# CV and Homepage Content Workflow
+
+Publications and selected invited talks are generated from the same canonical data used for the CV.
+
+Manually edit only:
+
+- `publications.bib`
+- `data/talks.yml`
+
+Do not manually edit:
+
+- the generated block in `_pages/about.md`
+- `_pages/publications.md`
+- `_pages/talks.md`
+- generated CV TeX files such as `cv/generated/*.tex`
+
+After editing the canonical data, regenerate the CV sections:
+
+```bash
+python3 scripts/generate_cv_all.py
+```
+
+Regenerate the homepage/publications/talks pages:
+
+```bash
+python3 scripts/generate_site_pages.py
+```
+
+If `cv.tex` is present in the checkout, compile the CV with:
+
+```bash
+latexmk -pdf cv.tex
+```
+
+Preview the website locally with:
+
+```bash
+bundle install
+bundle exec jekyll serve -l -H localhost
+```
+
 # Maintenance
 
 Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
