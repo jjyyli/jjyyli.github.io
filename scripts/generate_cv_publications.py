@@ -298,9 +298,9 @@ def render_publications_file(
             lines.append(f"% - {review.key}: {review.title} ({review.reason}).")
 
     lines.extend(["", r"\vspace{20pt}"])
-    lines.extend(render_section("Preprints", preprints, include_journal=False))
-    lines.extend(["", r"\vspace{5pt}"])
     lines.extend(render_section("Publications", publications, include_journal=True))
+    lines.extend(["", r"\vspace{5pt}"])
+    lines.extend(render_section("Preprints", preprints, include_journal=False))
     lines.append("")
     return "\n".join(lines)
 
