@@ -241,8 +241,10 @@ def load_talk_groups(talks_path: Path, bib_titles: dict[str, str]) -> list[TalkG
     return selected
 
 
-def render_talk_sections(talk_groups: list[TalkGroup]) -> str:
-    lines: list[str] = [GENERATED_COMMENT, "", "Selected Invited Talks", "======"]
+def render_talk_sections(talk_groups: list[TalkGroup], include_heading: bool = True) -> str:
+    lines: list[str] = [GENERATED_COMMENT, ""]
+    if include_heading:
+        lines.extend(["Selected Invited Talks", "======"])
 
     for talk_group in talk_groups:
         if talk_group.title:
@@ -338,10 +340,11 @@ def generate_site_pages(
 
     publications_body = render_publication_sections(publication_sections)
     talks_body = render_talk_sections(talk_groups)
+    talks_page_body = render_talk_sections(talk_groups, include_heading=False)
 
     update_home_page(home_path, f"{publications_body}\n\n{talks_body}")
     write_generated_page(publications_path, "Publications and Preprints", "/publications/", publications_body)
-    write_generated_page(talks_output_path, "Selected Invited Talks", "/talks/", talks_body)
+    write_generated_page(talks_output_path, "Selected Invited Talks", "/talks/", talks_page_body)
 
     return GenerationResult(
         bib_path=resolved_bib_path,
