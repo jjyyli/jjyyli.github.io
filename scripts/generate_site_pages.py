@@ -19,7 +19,7 @@ from cv_data import BibEntry, load_bib_entries, load_yaml_list  # noqa: E402
 from generate_cv_publications import classify_entries, format_authors, sort_section  # noqa: E402
 
 
-DEFAULT_BIB = Path("publications.bib")
+DEFAULT_BIB = Path("data/publications.bib")
 DEFAULT_TALKS = Path("data/talks.yml")
 DEFAULT_HOME_PAGE = Path("_pages/about.md")
 DEFAULT_PUBLICATIONS_PAGE = Path("_pages/publications.md")

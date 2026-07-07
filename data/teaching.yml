@@ -1,0 +1,44 @@
+- institution: "University of Michigan, Ann Arbor"
+  role: "Instructor"
+  courses:
+    - title: "Multivariate Calculus"
+      site_title: "MATH 215: Multivariate Calculus III"
+      term: "Fall 2024"
+      years: "2024"
+
+- institution: "Hong Kong University of Science and Technology"
+  role: "TA"
+  courses:
+    - title: "Statistical Machine Learning"
+      years: "2023"
+
+    - title: "Introduction to Multivariable Calculus"
+      site_title: "MATH 2011: Introduction to Multivariable Calculus"
+      term: "Spring, 2022"
+      years: "2022"
+
+    - title: "Matrix Computation"
+      site_title: "MATH 3322: Matrix Computation"
+      term: "Spring, 2021"
+      years: "2021"
+
+    - title: "Data Analytic Tools"
+      site_title: "MATH 3332: Data Analytic Tools"
+      term: "Fall, 2020, 2021"
+      years: "2020, 2021"
+
+    - title: "Calculus II"
+      site_title: "MATH 1014: Calculus II"
+      term: "Spring, 2020"
+      years: "2020"
+
+- institution: "Zhejiang University"
+  role: "TA"
+  courses:
+    - title: "Probability"
+      site_title: "Advanced Probability"
+      years: "2019"
+
+    - title: "Calculus"
+      site_title: "Calculus I"
+      years: "2019"

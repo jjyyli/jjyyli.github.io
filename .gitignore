@@ -1,8 +1,24 @@
 # Ignore the contents of the _site directory
 _site/
 
+# Ignore macOS Finder metadata
+.DS_Store
+
 # Ignore the directory for local files during development
 local/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
 
 # Ignore the Gemfile that is generated
 Gemfile.lock

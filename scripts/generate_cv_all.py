@@ -13,14 +13,19 @@ from generate_cv_publications import generate_publications
 from generate_cv_talks import DEFAULT_INPUT as TALKS_INPUT
 from generate_cv_talks import DEFAULT_OUTPUT as TALKS_OUTPUT
 from generate_cv_talks import generate_talks
+from generate_teaching import DEFAULT_CV_OUTPUT as TEACHING_OUTPUT
+from generate_teaching import DEFAULT_INPUT as TEACHING_INPUT
+from generate_teaching import generate_teaching
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--bib", type=Path, default=CANONICAL_BIB_FILE, help="Canonical publication BibTeX file.")
     parser.add_argument("--talks", type=Path, default=TALKS_INPUT, help="Canonical talks YAML file.")
+    parser.add_argument("--teaching", type=Path, default=TEACHING_INPUT, help="Canonical teaching YAML file.")
     parser.add_argument("--publications-output", type=Path, default=PUBLICATIONS_OUTPUT)
     parser.add_argument("--talks-output", type=Path, default=TALKS_OUTPUT)
+    parser.add_argument("--teaching-output", type=Path, default=TEACHING_OUTPUT)
     parser.add_argument(
         "--current-year",
         type=int,
@@ -31,6 +36,7 @@ def main() -> int:
 
     publications = generate_publications(args.bib, args.publications_output, args.current_year)
     talks = generate_talks(args.talks, args.talks_output, args.bib)
+    teaching = generate_teaching(args.teaching, args.teaching_output)
 
     print("Generated CV sections:")
     print(f"- Publications source: {publications.bib_path}")
@@ -41,6 +47,9 @@ def main() -> int:
     print(f"- Talks output: {talks.output_path}")
     print(f"- Selected invited talk groups: {talks.included_group_count}")
     print(f"- Selected invited appearances: {talks.included_appearance_count}")
+    print(f"- Teaching source: {teaching.input_path}")
+    print(f"- Teaching output: {teaching.cv_output_path}")
+    print(f"- Teaching courses: {teaching.course_count}")
 
     review_items: list[str] = []
     review_items.extend(
