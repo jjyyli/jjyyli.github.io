@@ -12,7 +12,7 @@ from cv_data import CANONICAL_BIB_FILE, escape_latex, load_bib_entries, load_yam
 
 
 DEFAULT_INPUT = Path("data/talks.yml")
-DEFAULT_OUTPUT = Path("cv/generated/talks.tex")
+DEFAULT_OUTPUT = Path("Resume/cv/generated/talks.tex")
 DEFAULT_BIB = CANONICAL_BIB_FILE
 
 

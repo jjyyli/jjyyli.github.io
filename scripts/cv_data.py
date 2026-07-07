@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 
-CANONICAL_BIB_FILE = Path("publications.bib")
+CANONICAL_BIB_FILE = Path("data/publications.bib")
 CANDIDATE_BIB_FILES = (CANONICAL_BIB_FILE,)
 
 

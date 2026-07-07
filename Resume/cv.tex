@@ -1,0 +1,204 @@
+%-------------------------
+% Preamble
+%-------------------------
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage[
+  colorlinks,
+  linkcolor=blue,
+  anchorcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+]{hyperref}
+
+% Page style
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4pt}
+\newcommand{\resumeItemSymbol}{\raisebox{0.1ex}{\scriptsize$\blacktriangleright$}}
+\setlist[itemize]{label=\resumeItemSymbol, leftmargin=*, labelsep=0.5em}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Document
+%-------------------------
+\begin{document}
+
+% Heading
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textit{\LARGE Resume} & \textbf{\LARGE Jingyang LI} \\
+  & Email: \href{mailto:jjyyli@fudan.edu.cn}{jjyyli@fudan.edu.cn} \\
+  & \href{https://jjyyli.github.io/}{Homepage} \\
+  & \href{https://scholar.google.com/citations?user=4Q2DaL4AAAAJ&hl=en}{Google Scholar}
+\end{tabular*}
+
+\vspace{10pt}
+\section{Working Experience}
+\begin{itemize}[leftmargin=*]
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{Fudan University} & Shanghai, China \\[-2pt]
+		\textit{Assistant Professor, Department of Statistics and Data Science} & \textit{June 2026 - now} \\
+	\end{tabular*}
+	
+	
+	
+  \vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{University of Michigan, Ann Arbor} & Ann Arbor, USA \\
+    \textit{Postdoctoral Assistant Professor (Van Loo Postdoc Fellow), Department of Mathematics} & \textit{May 2024 - May 2025} \\[-2pt]
+    \textit{Postdoctoral Research Fellow, Department of Statistics} & \textit{May 2024 - Jan 2026} \\
+  \end{tabular*}\vspace{-2pt}
+  {\textit{\newline{}Host: \textbf{Yang Chen}}}
+
+  \vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{University of Hong Kong} & Hong Kong SAR, China \\ [-2pt]
+    \textit{Senior Research Assistant, Department of Mathematics} & \textit{September 2023 - May 2024} \\
+  \end{tabular*}
+  \vspace{-2pt}
+  {\textit{\newline{}Host: \textbf{Michael Ng}}}
+\end{itemize}
+
+\vspace{5pt}
+\section{Education}
+\begin{itemize}[leftmargin=*]
+  \vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Hong Kong University of Science and Technology} & Hong Kong SAR, China \\
+    \textit{Ph.D. - Applied Mathematics and Statistics} & \textit{September 2019 - August 2023} \\
+  \end{tabular*}
+  {\textit{\newline{}Supervisor: \textbf{Jian-Feng Cai} and \textbf{Dong Xia}}}
+
+  % Duke University, NC, USA
+  % Visiting Student, October 2022 - March 2023
+  % Host: Hongkai Zhao and Anru Zhang
+
+  \vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{Zhejiang University} & Hangzhou, China \\
+    \textit{Bachelor of Science - Mathematics and Applied Mathematics} & \textit{September 2015 - June 2019} \\
+  \end{tabular*}
+  {\textit{\newline{}Graduated from ChuKoChen Honors College with honor}}
+
+  % Australian National University, Canberra, Australia
+  % Exchange Student, July 2017 - December 2017
+  %
+  % Hangzhou No.2 High School, Hangzhou, China
+  % High school, September 2012 - June 2015
+\end{itemize}
+
+\vspace{5pt}
+\section{Research Interest}
+High dimensional statistical inference; Matrix/Tensor learning; Signal Processing; Non-convex Optimization; Online Learning; Federated Learning.
+
+\input{cv/generated/publications.tex}
+
+%\vspace{5pt}
+%\section{Manuscript in Preparation}
+%\begin{enumerate}[label={[{\arabic*}]}, leftmargin=*]
+%	\item {\textit{Model-free dynamic portfolio choice with diffusion models}}\\
+%	With Fengyi Yuan, Erhan Bayraktar
+%	\item {\textit{Local Interaction Autoregressive Model for High Dimension Time Series Data}}\\
+%	With Yang Chen, Hu Sun
+%%	\item {\textit{A Novel Approach to Solar Flare Forecasting: Energy-Based Prediction and Classification Using SHARP Parameters}}\\
+%%	With Yang Chen, Siyuan Tang
+%	\item {\textit{Normal Approximation and Confidence Region of Differentially Private and Communication-Efficient Federated PCA}}\\
+%	With Jian-Feng Cai, Dong Xia, and Anru R. Zhang
+%\end{enumerate}
+
+
+
+%\vspace{5pt}
+%\section{Honors and Awards}
+%\begin{itemize}[leftmargin=*]
+%  \item {HKUST Overseas Research Award, 2022}
+%  \item {RedBird Academic Excellence Awards for Continuing PhD Students, 2022.}
+%  \item {17th Epsilon Fund Award, 2022.}
+%  \item {Din-Yu Hsieh Teaching Award, 2020, 2021.}
+%  \item {Hong Kong PhD Fellowship (the top award for PhD in HK), 2019 - 2023.}
+%  \item {First-Class Scholarship for Elite Students in Basic Science, 2016, 2017, 2018.}
+%  \vspace{-5pt}
+%\end{itemize}
+
+%\vspace{5pt}
+%\section{Ongoing Research Projects}
+%\begin{itemize}
+%	\item \textit{Federated PCA with Differential Privacy}
+%	\item \textit{}
+%	\vspace{3pt}\newline{}  
+	
+	
+%	\item \textit{Blessing of Online Tensor Learning and Computational and Statistical Tradeoffs}
+%	\vspace{3pt} \newline{}
+%	In this project, we investigate a generalized framework in online setting to estimate a latent low-rank tensor. This framework covers both linear and generalized linear models, tensor completion and binary tensor learning. We propose the online Riemannian gradient descent algorithm, which is proved to converge linearly and can recover the low-rank part under suitable conditions in all the applications. 
+%	Moreover, a sharp entry-wise error bound is provided in the online tensor completion. In the noise case, a surprising computational and statistical tradeoff is observed: a larger stepsize leads to a faster convergence speed while the output has a larger statistical error; a smaller stepsize gives rise to a statistical optimal estimator but has slower convergence. 
+	%	\item \textit{Provable Sample-Efficient Sparse Phase Retrieval Initialized by Truncated Power Method}
+	%		\vspace{3pt}\newline{} 
+	%		In this project, we study the sparse phase retrieval problem, recovering an  $s$-sparse length-$n$ signal from $m$ magnitude-only measurements. In terms of sample complexity, the bottleneck of most existing non-convex algorithms usually comes the initialization stage.  The widely used spectral method requires $m=\Omega(s^2\log n )$ measurements to produce a desired initial guess, which dominates non-convex algorithms. To reduce the number of measurements, we propose a simple truncated power method as an initialization strategy for non-convex algorithms in this work. Theoretically, we show that $m=\Omega(s\log n)$ measurements are sufficient to recover the signal when the underlying signal contains at least one significant component.
+%	\item \textit{Restoration Guarantee of Image Inpainting via Low Rank Patch Matrix Completion}
+%	\vspace{3pt}\newline{} 
+%	In this project, we explore the mathematical theory of patch-based image restoration methods. In particular, we focus on establishing the restoration guarantee of patch-based image inpainting, based on the assumption of self-similar patches. To do this, we reformulate the image inpainting problem into structured low rank matrix completion by grouping image patches with possible overlaps. Then under some incoherence assumptions, we establish the restoration guarantee provided that the number of samples exceeds the order of $r\log^2\left(N\right)$ where $N\times N$ is the size of the image and $r>0$ is the sum of the ranks of each group of image patches.
+%\end{itemize}
+
+
+
+\input{cv/generated/talks.tex}
+
+\vspace{5pt}
+\section{Service}
+\begin{itemize}[leftmargin=*]
+  \item External Review - University of Macau Multi-Year Research Grant
+  \item Reviewed Journal (Selected): JASA, JRSSB, JMLR, Statistica Sinica, TPAMI. 
+%  \begin{itemize}[leftmargin=*]
+%    \item Journal of the American Statistical Association (5)
+%    \item Statistica Sinica (3)
+%    \item Transactions on Pattern Analysis and Machine Intelligence (2)
+%    \item Journal of Statistical Planning and Inference
+%    \item Frontiers in Applied Mathematics and Statistics
+%    \item SIAM Image Science
+%    \item Applied Mathematics Modeling
+%    \item Statistics and Its Interface
+%    \item Journal of Applied Statistics
+%    \item Applied Mathematics Letter
+%  \end{itemize}
+  \item {HKUST SIAM student chapter, 2022-2023}
+\end{itemize}
+
+\input{cv/generated/teaching.tex}
+
+%\vspace{5pt}
+%\section{Programming Language Skills}
+%Matlab, Python, R, C++
+%
+%\vspace{5pt}
+%\section{Language Skills}
+%Chinese (native), English (fluent), Japanese (fluent), Spanish (read)
+
+\par\vfill\hfill{\scriptsize\color{gray}Last updated on \today}
+\end{document}
