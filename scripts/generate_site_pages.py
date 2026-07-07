@@ -154,12 +154,12 @@ def format_publication_entry(entry: BibEntry) -> str:
 
 
 def render_publication_sections(sections: PublicationSections) -> str:
-    lines: list[str] = [GENERATED_COMMENT, "", "Preprints", "======", ""]
-    for entry in sections.preprints:
+    lines: list[str] = [GENERATED_COMMENT, "", "Publications", "======", ""]
+    for entry in sections.publications:
         lines.extend([format_publication_entry(entry), ""])
 
-    lines.extend(["Publications", "======", ""])
-    for entry in sections.publications:
+    lines.extend(["Preprints", "======", ""])
+    for entry in sections.preprints:
         lines.extend([format_publication_entry(entry), ""])
 
     if sections.manual_reviews:
