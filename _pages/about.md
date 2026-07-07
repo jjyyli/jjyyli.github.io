@@ -108,6 +108,6 @@ Selected Invited Talks
 
 Contact
 ======
-Email: jjyyli@umich.edu
+Email: jjyyli@fudan.edu.cn
 
-Address: 431 West Hall, Ann Arbor, MI
+Address: Room 114, Siyuan Building, Fudan University
