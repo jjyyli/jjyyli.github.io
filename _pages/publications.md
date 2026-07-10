@@ -10,6 +10,10 @@ author_profile: true
 Publications
 ======
 
+1. **Local Interaction Autoregressive Model for High Dimension Time Series Data**<br>
+   **Jingyang Li** and Yang Chen.<br>
+   *Statistica Sinica*, 2026, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).
+
 1. **Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret**<br>
    **Jingyang Li**, Jian-Feng Cai, Yang Chen, and Dong Xia.<br>
    *The Annals of Statistics*, 54(3), 1153-1177, 2026.
@@ -56,10 +60,6 @@ Preprints
 1. **HeteroJIVE: Joint Subspace Estimation for Heterogeneous Multi-View Data**<br>
    **Jingyang Li** and Zhongyuan Lyu.<br>
    *arXiv preprint arXiv:2512.02866*, 2025 [[arXiv]](https://arxiv.org/abs/2512.02866).
-
-1. **Local Interaction Autoregressive Model for High Dimension Time Series Data**<br>
-   **Jingyang Li** and Yang Chen.<br>
-   *arXiv preprint arXiv:2511.09542*, 2025 [[arXiv]](https://arxiv.org/abs/2511.09542).
 
 1. **Fourier Low-rank and Sparse Tensor for Efficient Tensor Completion**<br>
    **Jingyang Li**, Jiuqian Shang, and Yang Chen.<br>
