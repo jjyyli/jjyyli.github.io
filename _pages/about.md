@@ -9,7 +9,7 @@ redirect_from:
 
 I am an Assistant Professor in the Department of Statistics and Data Science at Fudan University.
 
-Before joining Fudan, I was a Postdoctoral Research Fellow in the Department of Statistics at the University of Michigan, Ann Arbor, working with [Prof. Yang Chen](https://yangchenfunstatistics.github.io/yangchen.github.io/). Prior to joining Michigan, I worked with [Prof. Michael K. Ng](https://www.math.hkbu.edu.hk/~mng/) in the Department of Mathematics at the University of Hong Kong.
+Before joining Fudan, I was a Postdoctoral Research Fellow in the Department of Statistics at the University of Michigan, Ann Arbor, working with [Prof. Yang Chen](https://yangchenfunstatistics.github.io/yangchen.github.io/). Prior to joining Michigan, I worked with [Prof. Michael K. Ng](https://sites.google.com/view/michael-ng-math/home) in the Department of Mathematics at the University of Hong Kong.
 
 I received my Ph.D. in Mathematics from the Department of Mathematics at the Hong Kong University of Science and Technology in June 2023, under the supervision of [Prof. Jian-Feng Cai](https://www.math.hkust.edu.hk/~jfcai/) and [Prof. Dong Xia](https://www.math.hkust.edu.hk/~madxia/). I obtained my Bachelor’s degree in Mathematics from Zhejiang University in June 2019.
 
