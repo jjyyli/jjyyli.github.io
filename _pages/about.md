@@ -19,9 +19,13 @@ I received my Ph.D. in Mathematics from the Department of Mathematics at the Hon
 Publications
 ======
 
+1. **Tensor Completion using Subspace Information**<br>
+   **Jingyang Li** and Michael K. Ng.<br>
+   *Journal of the American Statistical Association*, 2026+, Accepted.
+
 1. **Local Interaction Autoregressive Model for High Dimension Time Series Data**<br>
    **Jingyang Li** and Yang Chen.<br>
-   *Statistica Sinica*, 2026, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).
+   *Statistica Sinica*, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).
 
 1. **Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret**<br>
    **Jingyang Li**, Jian-Feng Cai, Yang Chen, and Dong Xia.<br>

@@ -244,7 +244,9 @@ def format_journal_line(entry: BibEntry) -> str:
     details = format_volume_number_pages(entry)
 
     if status:
-        line = rf"\textit{{{status}, \textbf{{{journal}}}}}"
+        year = escape_latex(entry.fields.get("year", "").strip())
+        year_text = f" {year}" if year else ""
+        line = rf"\textit{{\textbf{{{journal}}}{year_text}, {status}}}"
     else:
         line = rf"\textit{{\textbf{{{journal}}}}}"
 
