@@ -10,71 +10,71 @@ author_profile: true
 Publications
 ======
 
-1. **Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm**<br>
-   **Jingyang Li**, T. Tony Cai, Dong Xia, and Anru R. Zhang.<br>
-   *Journal of the American Statistical Association*, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2411.15660).
+1. Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm<br>
+   *Jingyang Li*, T. Tony Cai, Dong Xia, and Anru R. Zhang.<br>
+   ***Journal of the American Statistical Association***, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2411.15660).
 
-1. **Local Interaction Autoregressive Model for High Dimension Time Series Data**<br>
-   **Jingyang Li** and Yang Chen.<br>
-   *Statistica Sinica*, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).
+1. Local Interaction Autoregressive Model for High Dimension Time Series Data<br>
+   *Jingyang Li* and Yang Chen.<br>
+   ***Statistica Sinica***, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).
 
-1. **Tensor Completion using Subspace Information**<br>
-   **Jingyang Li** and Michael K. Ng.<br>
-   *Journal of the American Statistical Association*, 2026, Published online [[DOI]](https://doi.org/10.1080/01621459.2026.2740825).
+1. Tensor Completion using Subspace Information<br>
+   *Jingyang Li* and Michael K. Ng.<br>
+   ***Journal of the American Statistical Association***, 2026, Published online [[DOI]](https://doi.org/10.1080/01621459.2026.2740825).
 
-1. **Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret**<br>
-   **Jingyang Li**, Jian-Feng Cai, Yang Chen, and Dong Xia.<br>
-   *The Annals of Statistics*, 54(3), 1153-1177, 2026.
+1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret<br>
+   *Jingyang Li*, Jian-Feng Cai, Yang Chen, and Dong Xia.<br>
+   ***The Annals of Statistics***, 54(3), 1153-1177, 2026.
 
-1. **Online policy learning and inference by matrix completion**<br>
-   Congyuan Duan, **Jingyang Li**, and Dong Xia.<br>
-   *Journal of the American Statistical Association*, 121(553), 598-611, 2026.
+1. Online policy learning and inference by matrix completion<br>
+   Congyuan Duan, *Jingyang Li*, and Dong Xia.<br>
+   ***Journal of the American Statistical Association***, 121(553), 598-611, 2026.
 
-1. **Computationally efficient and statistically optimal robust high-dimensional linear regression**<br>
-   Yinan Shen, **Jingyang Li**, Jian-Feng Cai, and Dong Xia.<br>
-   *The Annals of Statistics*, 53(1), 374-399, 2025.
+1. Computationally efficient and statistically optimal robust high-dimensional linear regression<br>
+   Yinan Shen, *Jingyang Li*, Jian-Feng Cai, and Dong Xia.<br>
+   ***The Annals of Statistics***, 53(1), 374-399, 2025.
 
-1. **Restoration guarantee of image inpainting via low rank patch matrix completion**<br>
-   Jian-Feng Cai, Jae Kyu Choi, **Jingyang Li**, and Guojian Yin.<br>
-   *SIAM Journal on Imaging Sciences*, 17(3), 1879-1908, 2024.
+1. Restoration guarantee of image inpainting via low rank patch matrix completion<br>
+   Jian-Feng Cai, Jae Kyu Choi, *Jingyang Li*, and Guojian Yin.<br>
+   ***SIAM Journal on Imaging Sciences***, 17(3), 1879-1908, 2024.
 
-1. **Generalized low-rank plus sparse tensor estimation by fast Riemannian optimization**<br>
-   Jian-Feng Cai, **Jingyang Li**, and Dong Xia.<br>
-   *Journal of the American Statistical Association*, 118(544), 2588-2604, 2023.
+1. Generalized low-rank plus sparse tensor estimation by fast Riemannian optimization<br>
+   Jian-Feng Cai, *Jingyang Li*, and Dong Xia.<br>
+   ***Journal of the American Statistical Association***, 118(544), 2588-2604, 2023.
 
-1. **Provable sample-efficient sparse phase retrieval initialized by truncated power method**<br>
-   Jian-Feng Cai, **Jingyang Li**, and Juntao You.<br>
-   *Inverse Problems*, 39(7), 075008, 2023.
+1. Provable sample-efficient sparse phase retrieval initialized by truncated power method<br>
+   Jian-Feng Cai, *Jingyang Li*, and Juntao You.<br>
+   ***Inverse Problems***, 39(7), 075008, 2023.
 
-1. **Image restoration: Structured low rank matrix framework for piecewise smooth functions and beyond**<br>
-   Jian-Feng Cai, Jae Kyu Choi, **Jingyang Li**, and Ke Wei.<br>
-   *Applied and Computational Harmonic Analysis*, 56, 26-60, 2022.
+1. Image restoration: Structured low rank matrix framework for piecewise smooth functions and beyond<br>
+   Jian-Feng Cai, Jae Kyu Choi, *Jingyang Li*, and Ke Wei.<br>
+   ***Applied and Computational Harmonic Analysis***, 56, 26-60, 2022.
 
-1. **Provable tensor-train format tensor completion by riemannian optimization**<br>
-   Jian-Feng Cai, **Jingyang Li**, and Dong Xia.<br>
-   *Journal of Machine Learning Research*, 23(123), 1-77, 2022.
+1. Provable tensor-train format tensor completion by riemannian optimization<br>
+   Jian-Feng Cai, *Jingyang Li*, and Dong Xia.<br>
+   ***Journal of Machine Learning Research***, 23(123), 1-77, 2022.
 
 Preprints
 ======
 
-1. **Online Riemannian Gradient Descent for Quantum State Tomography with Matrix Product Operators**<br>
-   Jian-Feng Cai, **Jingyang Li**, Xiaoqun Zhang, and Yuanwei Zhang.<br>
+1. Online Riemannian Gradient Descent for Quantum State Tomography with Matrix Product Operators<br>
+   Jian-Feng Cai, *Jingyang Li*, Xiaoqun Zhang, and Yuanwei Zhang.<br>
    *arXiv preprint arXiv:2605.04533*, 2026 [[arXiv]](https://arxiv.org/abs/2605.04533).
 
-1. **Uncertainty Quantification for Noisy Low-tubal-rank Tensor Completion**<br>
-   Jiuqian Shang, **Jingyang Li**, and Yang Chen.<br>
+1. Uncertainty Quantification for Noisy Low-tubal-rank Tensor Completion<br>
+   Jiuqian Shang, *Jingyang Li*, and Yang Chen.<br>
    *arXiv preprint arXiv:2604.10353*, 2026 [[arXiv]](https://arxiv.org/abs/2604.10353).
 
-1. **HeteroJIVE: Joint Subspace Estimation for Heterogeneous Multi-View Data**<br>
-   **Jingyang Li** and Zhongyuan Lyu.<br>
+1. HeteroJIVE: Joint Subspace Estimation for Heterogeneous Multi-View Data<br>
+   *Jingyang Li* and Zhongyuan Lyu.<br>
    *arXiv preprint arXiv:2512.02866*, 2025 [[arXiv]](https://arxiv.org/abs/2512.02866).
 
-1. **Fourier Low-rank and Sparse Tensor for Efficient Tensor Completion**<br>
-   **Jingyang Li**, Jiuqian Shang, and Yang Chen.<br>
+1. Fourier Low-rank and Sparse Tensor for Efficient Tensor Completion<br>
+   *Jingyang Li*, Jiuqian Shang, and Yang Chen.<br>
    *arXiv preprint arXiv:2505.11261*, 2025 [[arXiv]](https://arxiv.org/abs/2505.11261).
 
-1. **Computationally efficient and statistically optimal robust low-rank matrix and tensor estimation**<br>
-   Yinan Shen, **Jingyang Li**, Jian-Feng Cai, and Dong Xia.<br>
+1. Computationally efficient and statistically optimal robust low-rank matrix and tensor estimation<br>
+   Yinan Shen, *Jingyang Li*, Jian-Feng Cai, and Dong Xia.<br>
    *arXiv preprint arXiv:2203.00953*, 2022 [[arXiv]](https://arxiv.org/abs/2203.00953).
 
 <!-- Manual review needed before website display:

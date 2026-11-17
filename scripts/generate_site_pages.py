@@ -16,7 +16,7 @@ REPO_ROOT = SCRIPT_DIR.parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from cv_data import BibEntry, load_bib_entries, load_yaml_list  # noqa: E402
-from generate_cv_publications import classify_entries, format_authors, sort_section  # noqa: E402
+from generate_cv_publications import classify_entries, format_authors, is_preprint_journal, sort_section  # noqa: E402
 
 
 DEFAULT_BIB = Path("data/publications.bib")
@@ -72,7 +72,7 @@ def markdown_text(value: str | None) -> str:
 
 
 def highlight_author_name(authors: str) -> str:
-    return re.sub(r"\bJingyang Li\b", "**Jingyang Li**", authors)
+    return re.sub(r"\bJingyang Li\b", "*Jingyang Li*", authors)
 
 
 def arxiv_id(entry: BibEntry) -> str | None:
@@ -117,7 +117,8 @@ def format_venue(entry: BibEntry) -> str:
 
     pieces: list[str] = []
     if journal:
-        pieces.append(f"*{journal}*")
+        emphasis = "*" if is_preprint_journal(journal) else "***"
+        pieces.append(f"{emphasis}{journal}{emphasis}")
 
     volume_text = ""
     if volume and number:
@@ -145,7 +146,7 @@ def format_publication_entry(entry: BibEntry) -> str:
     venue = format_venue(entry)
     links = format_links(entry)
 
-    lines = [f"1. **{title}**<br>"]
+    lines = [f"1. {title}<br>"]
     if authors:
         lines.append(f"   {authors}.<br>")
     if venue or links:
