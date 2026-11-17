@@ -241,6 +241,11 @@ def format_volume_number_pages(entry: BibEntry) -> str:
 def format_journal_line(entry: BibEntry) -> str:
     journal = escape_latex(entry.fields.get("journal", "").strip())
     status = status_label(entry)
+    if entry.fields.get("note", "").strip().lower() == "published online":
+        status = "Published online"
+        doi = entry.fields.get("doi", "").strip()
+        if doi:
+            status = rf"\href{{https://doi.org/{escape_latex(doi)}}}{{{status}}}"
     details = format_volume_number_pages(entry)
 
     if status:

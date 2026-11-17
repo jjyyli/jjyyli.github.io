@@ -10,13 +10,17 @@ author_profile: true
 Publications
 ======
 
-1. **Tensor Completion using Subspace Information**<br>
-   **Jingyang Li** and Michael K. Ng.<br>
-   *Journal of the American Statistical Association*, 2026+, Accepted.
+1. **Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm**<br>
+   **Jingyang Li**, T. Tony Cai, Dong Xia, and Anru R. Zhang.<br>
+   *Journal of the American Statistical Association*, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2411.15660).
 
 1. **Local Interaction Autoregressive Model for High Dimension Time Series Data**<br>
    **Jingyang Li** and Yang Chen.<br>
    *Statistica Sinica*, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).
+
+1. **Tensor Completion using Subspace Information**<br>
+   **Jingyang Li** and Michael K. Ng.<br>
+   *Journal of the American Statistical Association*, 2026, Published online [[DOI]](https://doi.org/10.1080/01621459.2026.2740825).
 
 1. **Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret**<br>
    **Jingyang Li**, Jian-Feng Cai, Yang Chen, and Dong Xia.<br>
@@ -68,10 +72,6 @@ Preprints
 1. **Fourier Low-rank and Sparse Tensor for Efficient Tensor Completion**<br>
    **Jingyang Li**, Jiuqian Shang, and Yang Chen.<br>
    *arXiv preprint arXiv:2505.11261*, 2025 [[arXiv]](https://arxiv.org/abs/2505.11261).
-
-1. **Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm**<br>
-   **Jingyang Li**, T. Tony Cai, Dong Xia, and Anru R. Zhang.<br>
-   *arXiv preprint arXiv:2411.15660*, 2024 [[arXiv]](https://arxiv.org/abs/2411.15660).
 
 1. **Computationally efficient and statistically optimal robust low-rank matrix and tensor estimation**<br>
    Yinan Shen, **Jingyang Li**, Jian-Feng Cai, and Dong Xia.<br>
