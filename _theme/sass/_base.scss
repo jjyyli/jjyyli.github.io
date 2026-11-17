@@ -167,12 +167,11 @@ ol li {
   margin-bottom: 0.5em;
 }
 
-// Keep the three lines of each citation together with a modest gap between papers.
-#publications + ol,
-#preprints + ol {
-  > li > p {
-    margin: 0 0 0.5em;
-  }
+// Use the same gap between biography paragraphs and between individual papers.
+.about-intro > p:not(:last-child),
+#publications + ol > li > p,
+#preprints + ol > li > p {
+  margin: 0 0 0.5em;
 }
 
 li ul,
