@@ -71,10 +71,6 @@ def markdown_text(value: str | None) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def highlight_author_name(authors: str) -> str:
-    return re.sub(r"\bJingyang Li\b", "*Jingyang Li*", authors)
-
-
 def arxiv_id(entry: BibEntry) -> str | None:
     haystack = " ".join(
         entry.fields.get(name, "")
@@ -142,16 +138,16 @@ def format_venue(entry: BibEntry) -> str:
 
 def format_publication_entry(entry: BibEntry) -> str:
     title = markdown_text(entry.fields.get("title"))
-    authors = highlight_author_name(markdown_text(format_authors(entry.fields.get("author", ""))))
+    authors = markdown_text(format_authors(entry.fields.get("author", "")))
     venue = format_venue(entry)
     links = format_links(entry)
 
-    lines = [f"1. {title}<br>"]
-    if authors:
-        lines.append(f"   {authors}.<br>")
+    lines = [f"1. {title}"]
     if venue or links:
         lines.append(f"   {venue}{links}.")
-    return "\n".join(lines)
+    if authors:
+        lines.append(f"   {authors}.")
+    return "<br>\n".join(lines)
 
 
 def render_publication_sections(sections: PublicationSections) -> str:

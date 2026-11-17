@@ -167,6 +167,14 @@ ol li {
   margin-bottom: 0.5em;
 }
 
+// Keep the three lines of each citation together with a modest gap between papers.
+#publications + ol,
+#preprints + ol {
+  > li > p {
+    margin: 0 0 0.75em;
+  }
+}
+
 li ul,
 li ol {
   margin-top: 0.5em;
