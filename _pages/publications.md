@@ -14,13 +14,13 @@ Publications
    ***Journal of the American Statistical Association***, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2411.15660).<br>
    Jingyang Li, T. Tony Cai, Dong Xia, and Anru R. Zhang.
 
-1. Local Interaction Autoregressive Model for High Dimension Time Series Data<br>
-   ***Statistica Sinica***, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).<br>
-   Jingyang Li and Yang Chen.
-
 1. Tensor Completion using Subspace Information<br>
    ***Journal of the American Statistical Association***, 2026, Published online [[DOI]](https://doi.org/10.1080/01621459.2026.2740825).<br>
    Jingyang Li and Michael K. Ng.
+
+1. Local Interaction Autoregressive Model for High Dimension Time Series Data<br>
+   ***Statistica Sinica***, 2026+, Accepted [[arXiv]](https://arxiv.org/abs/2511.09542).<br>
+   Jingyang Li and Yang Chen.
 
 1. Online tensor learning: Computational and statistical trade-offs, adaptivity and optimal regret<br>
    ***The Annals of Statistics***, 54(3), 1153-1177, 2026.<br>
