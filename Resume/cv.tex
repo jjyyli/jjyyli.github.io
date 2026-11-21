@@ -6,9 +6,11 @@
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{tabularx}
 \usepackage{amssymb}
 \usepackage{fancyhdr}
 \usepackage{xcolor}
+\usepackage{CJKutf8}
 \usepackage[
   colorlinks,
   linkcolor=blue,
@@ -39,6 +41,11 @@
 \newcommand{\resumeItemSymbol}{\raisebox{0.1ex}{\scriptsize$\blacktriangleright$}}
 \setlist[itemize]{label=\resumeItemSymbol, leftmargin=*, labelsep=0.5em}
 \setlist[enumerate]{itemsep=3pt, parsep=0pt}
+\newcommand{\resumeTalk}[2]{%
+  \begin{tabularx}{\linewidth}[t]{@{}>{\raggedright\arraybackslash}X@{\hspace{1em}}r@{}}%
+    #1 & #2
+  \end{tabularx}%
+}
 
 % Section formatting
 \titleformat{\section}{
@@ -49,6 +56,7 @@
 % Document
 %-------------------------
 \begin{document}
+\begin{CJK*}{UTF8}{gbsn}
 
 % Heading
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
@@ -202,4 +210,5 @@ High dimensional statistical inference; Matrix/Tensor learning; Signal Processin
 %Chinese (native), English (fluent), Japanese (fluent), Spanish (read)
 
 \par\vfill\hfill{\scriptsize\color{gray}Last updated on \today}
+\end{CJK*}
 \end{document}

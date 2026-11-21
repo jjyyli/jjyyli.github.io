@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+from html import escape
 import re
 import sys
 from dataclasses import dataclass
@@ -16,7 +17,7 @@ REPO_ROOT = SCRIPT_DIR.parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from cv_data import BibEntry, load_bib_entries, load_yaml_list  # noqa: E402
-from generate_cv_publications import classify_entries, format_authors, is_preprint_journal, sort_section  # noqa: E402
+from generate_cv_publications import classify_entries, format_authors, sort_section  # noqa: E402
 
 
 DEFAULT_BIB = Path("data/publications.bib")
@@ -113,8 +114,7 @@ def format_venue(entry: BibEntry) -> str:
 
     pieces: list[str] = []
     if journal:
-        emphasis = "*" if is_preprint_journal(journal) else "***"
-        pieces.append(f"{emphasis}{journal}{emphasis}")
+        pieces.append(f"*{journal}*")
 
     volume_text = ""
     if volume and number:
@@ -142,22 +142,24 @@ def format_publication_entry(entry: BibEntry) -> str:
     venue = format_venue(entry)
     links = format_links(entry)
 
-    lines = [f"1. {title}"]
+    lines = [f"1. **{title}**"]
+    if authors:
+        lines.append(f'   <span class="publication-authors">{escape(authors)}.</span>')
     if venue or links:
         lines.append(f"   {venue}{links}.")
-    if authors:
-        lines.append(f"   {authors}.")
     return "<br>\n".join(lines)
 
 
 def render_publication_sections(sections: PublicationSections) -> str:
-    lines: list[str] = [GENERATED_COMMENT, "", "Publications", "======", ""]
+    lines: list[str] = [GENERATED_COMMENT, "", '<div class="publication-section" markdown="1">', "", "## Publications", ""]
     for entry in sections.publications:
         lines.extend([format_publication_entry(entry), ""])
 
-    lines.extend(["Preprints", "======", ""])
+    lines.extend(["</div>", "", '<div class="publication-section" markdown="1">', "", "## Preprints", ""])
     for entry in sections.preprints:
         lines.extend([format_publication_entry(entry), ""])
+
+    lines.extend(["</div>", ""])
 
     if sections.manual_reviews:
         lines.extend(["<!-- Manual review needed before website display:"])
@@ -212,19 +214,21 @@ def format_talk_appearance(appearance: dict[str, Any]) -> str:
         markdown_text(str(appearance.get("venue", ""))),
         markdown_text(str(appearance.get("session", ""))),
         markdown_text(str(appearance.get("location", ""))),
-        markdown_text(str(appearance.get("date", ""))),
     ]
-    main = ", ".join(piece for piece in pieces if piece)
+    venue = escape(", ".join(piece for piece in pieces if piece))
+    date = markdown_text(str(appearance.get("date", "")))
+    try:
+        iso_date = dt.datetime.strptime(date, "%B %Y").strftime("%Y-%m")
+        date_html = f'<time class="talk-date" datetime="{iso_date}">{escape(date)}</time>'
+    except ValueError:
+        date_html = f'<span class="talk-date">{escape(date)}</span>'
 
-    talk_type = markdown_text(str(appearance.get("type", "")))
-    if talk_type:
-        main = f"{main} (*{talk_type}*)"
-
+    link = ""
     url = markdown_text(str(appearance.get("url", "")))
     if url:
-        main = f"{main} [[link]]({url})"
+        link = f' <a href="{escape(url, quote=True)}" aria-label="More about the talk at {venue}">[link]</a>'
 
-    return main
+    return f'<li><div class="talk-details"><span class="talk-venue">{venue}</span>{link}</div>{date_html}</li>'
 
 
 def load_talk_groups(talks_path: Path, bib_titles: dict[str, str]) -> list[TalkGroup]:
@@ -241,17 +245,23 @@ def load_talk_groups(talks_path: Path, bib_titles: dict[str, str]) -> list[TalkG
 def render_talk_sections(talk_groups: list[TalkGroup], include_heading: bool = True) -> str:
     lines: list[str] = [GENERATED_COMMENT, ""]
     if include_heading:
-        lines.extend(["Selected Invited Talks", "======"])
+        lines.extend(["## Selected Invited Talks", ""])
 
-    for talk_group in talk_groups:
+    heading_level = "h3" if include_heading else "h2"
+    for index, talk_group in enumerate(talk_groups, start=1):
+        heading_id = f"talk-group-{index}"
+        lines.append(f'<section class="talk-group" aria-labelledby="{heading_id}">')
         if talk_group.title:
-            lines.append(f"**Related paper:** *{talk_group.title}*")
+            label, title = "Related paper", talk_group.title
         else:
-            lines.append(f"**Research topic:** *{group_label(talk_group.group)}*")
+            label, title = "Research topic", group_label(talk_group.group)
+        lines.append(f'<p class="talk-group-label">{label}</p>')
+        lines.append(f'<{heading_level} class="talk-group-title" id="{heading_id}">{escape(title)}</{heading_level}>')
+        lines.append('<ul class="talk-list">')
 
         for appearance in talk_group.appearances:
-            lines.append(f"- {format_talk_appearance(appearance)}")
-        lines.append("")
+            lines.append(format_talk_appearance(appearance))
+        lines.extend(["</ul>", "</section>", ""])
 
     return "\n".join(lines).rstrip()
 

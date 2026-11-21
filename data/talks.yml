@@ -1,6 +1,30 @@
+- paper_key: "li2024federated"
+  display_label: "Federated PCA"
+  paper_title: "Federated PCA and Estimation for Spiked Covariance Matrices: Optimal Rates and Efficient Algorithm"
+  include_in_cv: true
+  appearances:
+    - venue: "FIM-IMS Joint Workshop on Mathematics of Data Science"
+      type: "invited talk"
+      date: "November 2026"
+      invited: true
+      category: "workshop"
+
+    # Official Chinese title: https://stat.jxufe.edu.cn/news-show-8629.html
+    - venue: "第十四届全国概率统计会议 (中国数学会概率统计分会)"
+      type: "invited talk"
+      date: "October 2026"
+      invited: true
+      category: "conference"
+
+    - venue: "4th Joint Conference on Statistics and Data Science (JCSDS 2026)"
+      type: "invited talk"
+      date: "July 2026"
+      invited: true
+      category: "conference"
+
 - paper_key: "li2025heterojive"
-  display_label: "HeteroJIVE"
-  paper_title: "HeteroJIVE: Joint Subspace Estimation for Heterogeneous Multi-View Data"
+  display_label: "Spectral Joint Subspace Estimation"
+  paper_title: "Spectral Joint Subspace Estimation for Heterogeneous Multi-View Data: Geometry and Reweighting"
   include_in_cv: true
   appearances:
     - venue: "Department of Mathematics, East China Normal University"
@@ -50,6 +74,24 @@
   paper_title: "Online Tensor Learning: Computational and Statistical Trade-offs, Adaptivity and Optimal Regret"
   include_in_cv: true
   appearances:
+    - venue: "Department of Mathematics, South China Normal University"
+      type: "department seminar"
+      date: "November 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "University of Sydney Business School"
+      type: "department seminar"
+      date: "August 2026"
+      invited: true
+      category: "seminar"
+
+    - venue: "Frontiers Forum on Bayesian Statistics and Artificial Intelligence"
+      type: "invited talk"
+      date: "August 2026"
+      invited: true
+      category: "conference"
+
     - venue: "Department of Mathematics, Fudan University"
       type: "department seminar"
       date: "June 2026"

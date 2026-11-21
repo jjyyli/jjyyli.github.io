@@ -135,7 +135,12 @@ def render_group(group: dict[str, Any], appearances: list[dict[str, Any]], title
         r"  \begin{itemize}[label={}, leftmargin=0pt, labelsep=0pt, itemindent=0pt, itemsep=0pt, topsep=0pt]",
     ]
     for appearance in appearances:
-        lines.append(rf"    \item {{{escape_latex(appearance_text(appearance))}}}")
+        venue = ", ".join(
+            value for field in ("venue", "location")
+            if (value := str(appearance.get(field, "")).strip())
+        )
+        date = str(appearance.get("date", "")).strip()
+        lines.append(rf"    \item \resumeTalk{{{escape_latex(venue)}}}{{{escape_latex(date)}}}")
     lines.append(r"  \end{itemize}")
     return lines
 
