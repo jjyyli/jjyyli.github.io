@@ -128,6 +128,7 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - Resume
   - Rakefile
   - config
   - gulpfile.js

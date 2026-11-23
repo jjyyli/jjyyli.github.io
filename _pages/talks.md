@@ -38,6 +38,7 @@ author_profile: true
 <li><div class="talk-details"><span class="talk-venue">Department of Mathematics, South China Normal University</span></div><time class="talk-date" datetime="2026-11">November 2026</time></li>
 <li><div class="talk-details"><span class="talk-venue">University of Sydney Business School</span></div><time class="talk-date" datetime="2026-08">August 2026</time></li>
 <li><div class="talk-details"><span class="talk-venue">Frontiers Forum on Bayesian Statistics and Artificial Intelligence</span></div><time class="talk-date" datetime="2026-08">August 2026</time></li>
+<li><div class="talk-details"><span class="talk-venue">CSIAM 第七届大数据与人工智能科学大会</span></div><time class="talk-date" datetime="2026-07">July 2026</time></li>
 <li><div class="talk-details"><span class="talk-venue">Department of Mathematics, Fudan University</span></div><time class="talk-date" datetime="2026-06">June 2026</time></li>
 <li><div class="talk-details"><span class="talk-venue">Hong Kong Baptist University</span></div><time class="talk-date" datetime="2023-10">October 2023</time></li>
 <li><div class="talk-details"><span class="talk-venue">HKUST SIAM Student Chapter Annual Meeting</span></div><time class="talk-date" datetime="2023-06">June 2023</time></li>

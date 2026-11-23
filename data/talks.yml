@@ -92,6 +92,12 @@
       invited: true
       category: "conference"
 
+    - venue: "CSIAM 第七届大数据与人工智能科学大会"
+      type: "invited talk"
+      date: "July 2026"
+      invited: true
+      category: "conference"
+
     - venue: "Department of Mathematics, Fudan University"
       type: "department seminar"
       date: "June 2026"
